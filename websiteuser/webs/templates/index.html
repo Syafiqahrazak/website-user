@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styling -->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'webs/style.css' %}">
+    <!-- font: Poppins -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <!-- icons: Font Awesome 5.15-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Website User</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+
+        <img class="logo-image" src="{% static 'media/PMJ.png'%}">
+        <h6>Welcome To PMJ Scan n Go</h6>
+        <div class="log">
+            <a href="/">Logout</a>
+
+        </div>
+    </nav>
+    <main>
+        <div class="dashboard-container">
+            <div class="card-profile">
+                <div class="card-profile1">
+                    <div class="info">
+                        <div class="info-detail">
+                            <div class="col-sm-6">
+                            <h2><b>Profile Details</b></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-profile2">
+                    <div class="staff">
+                        <div class="staff-detail">
+                            <h2><b>ID AB1132<span>&emsp;ID AC1145</span></b></h2>
+                            <h1>CAR<span>&emsp;&emsp;&emsp;&emsp;&emsp; JDT1132</span></h1>
+                            <h1>CAR<span>&emsp;&emsp;&emsp;&emsp;&emsp; WLM7234</span></h1>
+                            <h1>MOTOCYCLE<span>&emsp; JFD3354</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <div class="table-wrapper">
+                    <div class="table-title">
+                        <div class="col-sm-6">
+                            <h2><b>History</b></h2>
+                        </div>
+                    </div>
+                    <div class="table-back">
+                        <table class="table table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">DATE</th>
+                                    <th scope="col">CHECK IN</th>
+                                    <th scope="col">DATE</th>
+                                    <th scope="col">CHECK OUT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>AB1132</td>
+                                    <td>12/3/2021</td>
+                                    <td>12:23:04</td>
+                                    <td>12/3/2021</td>
+                                    <td>09:30:12</td>
+                                </tr>
+                                <tr>
+                                    <td>AC1145</td>
+                                    <td>25/7/2021</td>
+                                    <td>11:20:78</td>
+                                    <td>28/7/2021</td>
+                                    <td>01:21:10</td>
+                                </tr>
+                                <tr>
+                                    <td>AB1132</td>
+                                    <td>25/7/2021</td>
+                                    <td>11:20:78</td>
+                                    <td>28/7/2021</td>
+                                    <td>01:21:10</td>
+                                </tr>
+                                <tr>
+                                    <td>AC1145</td>
+                                    <td>25/7/2021</td>
+                                    <td>11:20:78</td>
+                                    <td>28/7/2021</td>
+                                    <td>01:21:10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
